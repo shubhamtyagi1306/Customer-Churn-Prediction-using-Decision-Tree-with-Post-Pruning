@@ -5,22 +5,16 @@
 This project focuses on predicting **customer churn** in a telecom company using a **Decision Tree Classification** algorithm. The goal is to determine whether a customer is likely to leave the service based on demographic and behavioral attributes.  
 To enhance model performance and reduce overfitting, **Cost Complexity Post-Pruning** is applied to the decision tree.
 
----
-
 ## 🔍 Problem Statement
 
 Telecom companies face high churn rates, resulting in significant revenue loss. Early identification of potential churners allows companies to take proactive retention measures.  
 This project builds a machine learning model to predict customer churn using historical data and improves the model using pruning techniques.
-
----
 
 ## 🗂️ Dataset
 
 **Dataset Name:** Telco Customer Churn  
 **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)  
 **File Used:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
-
----
 
 ## ⚙️ Tech Stack
 
@@ -30,8 +24,6 @@ This project builds a machine learning model to predict customer churn using his
 - Scikit-learn
 - Matplotlib
 - Seaborn
-
----
 
 ## 🔄 Workflow
 
@@ -61,8 +53,6 @@ This project builds a machine learning model to predict customer churn using his
 - Retrain the model with the selected alpha.
 - Evaluate pruned model and compare with the base model.
 
----
-
 ## 📊 Evaluation Metrics
 
 - **Accuracy**
@@ -71,19 +61,13 @@ This project builds a machine learning model to predict customer churn using his
 - **F1-score**
 - **Confusion Matrix**
 
----
-
 ## ✅ Results
 
 - **Base Model Accuracy (Before Pruning):** ~0.7249  
 - **Final Model Accuracy (After Pruning):** ~0.7860 Improved generalization, reduced overfitting.
-
----
 
 ## 📌 Conclusion
 
 - Decision Tree is a powerful but overfitting-prone algorithm.
 - Using **cost complexity post-pruning** improved the model's ability to generalize to unseen data.
 - This approach can be easily adapted to other classification problems in business contexts.
-
----
